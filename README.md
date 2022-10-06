@@ -1,3 +1,5 @@
+<img src="standard.gif" alt="welcome-banner" />
+
 # 🖐️ Hi! Let Me introduce myself
 I'm Konrad but you could know me as **@konradsic** or **@Konradoo**. 
 I really like programming - thats what I want to do in the future. After all I also play games such as Minecraft and Cities: Skylines
