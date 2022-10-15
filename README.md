@@ -1,4 +1,4 @@
-<img src="standard.gif" alt="welcome-banner"/>
+<img src="standard.gif" alt="welcome-banner" width="340px" height="120px"/>
 
 # 🖐️ Hi! Let Me introduce myself
 I'm Konrad but you could know me as **@konradsic** or **@Konradoo**. 
@@ -15,4 +15,4 @@ Here is a short list of projects that I've been recently working on (updated 6.1
 * Via discord: **Konradoo#6938**
 
 ## Watch how snake eats my contributions
-![snake gif](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.gif)
+![snake gif](https://github.com/konradsic/konradsic/blob/output/github-contribution-grid-snake.gif)
