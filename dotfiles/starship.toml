@@ -1,0 +1,145 @@
+format = """
+[](fg:#00B2FF)$time$username[](bg:#10B000 fg:#00B2FF)\
+$directory[](bg:#E8A903 fg:#10B000)\
+$git_branch$git_commit$git_status[](fg:#E8A903 bg:#E0FF00)\
+$python$nodejs$java$c$elixir$elm$golang$julia$lua$rlang$ruby$rust$spack[](fg:#E0FF00)\
+$docker_context """
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+read_only = " "
+truncation_symbol = "⋯/"
+format = "[ $path$read_only ](bg:#10B000)"
+
+[docker_context]
+disabled = false
+symbol = " "
+format = "[ $symbol$context ](bg:#57FAFF fg:black)[](fg:#57FAFF)"
+
+[elixir]
+symbol = " "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[elm]
+symbol = " "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[git_branch]
+symbol = " "
+truncation_length = 30
+format = "[ $symbol$branch(:$remote_branch) ](bg:#E8A903)"
+
+[git_status]
+disabled = false
+conflicted = ""
+ahead = ""
+behind = ""
+diverged = ""
+untracked = ""
+stashed = "ﰤ"
+modified = ""
+staged = ""
+renamed = ""
+deleted = ""
+format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#E8A903))"
+
+[golang]
+symbol = " "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[haskell]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[julia]
+symbol = " "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[lua]
+symbol = " "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[package]
+symbol = " "
+disabled = true
+
+[python]
+symbol = " "
+format = "[ $symbol$version$virtualenv ](bg:#E0FF00 fg:black)"
+
+[rlang]
+symbol = "ﳒ "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[ruby]
+symbol = " "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[rust]
+symbol = " "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[spack]
+symbol = "🅢 "
+format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+
+[status]
+format = "[$common_meaning $status]($style)"
+disabled = false
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+
+[git_commit]
+tag_disabled = false
+commit_hash_length = 10
+disabled = false
+
+[username]
+disabled = false
+show_always = true
+style_user = "bg:#00B2FF fg:white"
+style_root = "bg:#00B2FF fg:#C5C5C5"
+format = "[ $user ]($style)"
+
+[time]
+disabled = false
+time_format = "%H:%M"
+utc_time_offset = "local"
+time_range = "-"
+format = "[ $time](bg:#00B2FF)"
