@@ -3,7 +3,8 @@ format = """
 $directory[](bg:#E8A903 fg:#10B000)\
 $git_branch$git_commit$git_status[](fg:#E8A903 bg:#E0FF00)\
 $python$nodejs$java$c$elixir$elm$golang$julia$lua$rlang$ruby$rust$spack[](fg:#E0FF00)\
-$docker_context """
+$docker_context 
+   $character"""
 
 [aws]
 symbol = "  "
@@ -23,8 +24,8 @@ symbol = " "
 
 [directory]
 read_only = " "
-truncation_symbol = "⋯/"
-format = "[ $path$read_only ](bg:#10B000)"
+truncation_symbol = "⋯ /"
+format = "[ $path$read_only ](bg:#10B000 fg:black)"
 
 [docker_context]
 disabled = false
@@ -42,7 +43,7 @@ format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
 [git_branch]
 symbol = " "
 truncation_length = 30
-format = "[ $symbol$branch(:$remote_branch) ](bg:#E8A903)"
+format = "[ $symbol$branch(:$remote_branch) ](bg:#E8A903 fg:black)"
 
 [git_status]
 disabled = false
@@ -99,7 +100,7 @@ disabled = true
 
 [python]
 symbol = " "
-format = "[ $symbol$version$virtualenv ](bg:#E0FF00 fg:black)"
+format = "[ $symbol$version $virtualenv ](bg:#E0FF00 fg:black)"
 
 [rlang]
 symbol = "ﳒ "
@@ -122,8 +123,8 @@ format = "[$common_meaning $status]($style)"
 disabled = false
 
 [character]
-success_symbol = "[➜](bold green)"
-error_symbol = "[➜](bold red)"
+success_symbol = "[└───](bold green)"
+error_symbol = "[└───](bold red)"
 
 [git_commit]
 tag_disabled = false
@@ -133,8 +134,8 @@ disabled = false
 [username]
 disabled = false
 show_always = true
-style_user = "bg:#00B2FF fg:white"
-style_root = "bg:#00B2FF fg:#C5C5C5"
+style_user = "bg:#00B2FF fg:black"
+style_root = "bg:#00B2FF fg:#232323"
 format = "[ $user ]($style)"
 
 [time]
@@ -142,4 +143,4 @@ disabled = false
 time_format = "%H:%M"
 utc_time_offset = "local"
 time_range = "-"
-format = "[ $time](bg:#00B2FF)"
+format = "[ $time](bg:#00B2FF fg:black)"
