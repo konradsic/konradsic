@@ -1,49 +1,20 @@
 format = """
-[](fg:#00B2FF)$time$username[](bg:#10B000 fg:#00B2FF)\
-$directory[](bg:#C203FC fg:#10B000)\
-$git_branch$git_commit$git_status[](fg:#C203FC bg:#E0FF00)\
-$python$nodejs$java$c$elixir$elm$golang$julia$lua$rlang$ruby$rust$spack[](fg:#E0FF00) """
-
-# bg/fg #E8A903
-
-[aws]
-symbol = "  "
-
-[buf]
-symbol = " "
+[](fg:#2987C1)[ ](bg:#2987C1)$c$java$nodejs$lua$python$directory[ ](bg:#2987C1)[](bg:#7000DD fg:#2987C1)\
+$git_branch$git_commit$git_status[](fg:#7000DD) """
 
 [c]
 symbol = " "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
-
-[conda]
-symbol = " "
-
-[dart]
-symbol = " "
+format = "[$symbol](bg:#E0FF00 fg:black)"
 
 [directory]
 read_only = " "
 truncation_symbol = "⋯ /"
-format = "[ $path$read_only ](bg:#10B000 fg:black)"
-
-[docker_context]
-disabled = false
-symbol = " "
-format = "[ $symbol$context ](bg:#57FAFF fg:black)[](fg:#57FAFF)"
-
-[elixir]
-symbol = " "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
-
-[elm]
-symbol = " "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+format = "[ $path$read_only](fg:black bg:#2987C1)"
 
 [git_branch]
 symbol = " "
 truncation_length = 30
-format = "[ $symbol$branch(:$remote_branch) ](bg:#C203FC fg:black)"
+format = "[ $symbol$branch(:$remote_branch) ](bg:#7000DD fg:black)"
 
 [git_status]
 disabled = false
@@ -57,78 +28,25 @@ modified = ""
 staged = ""
 renamed = ""
 deleted = ""
-format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#C203FC))"
-
-[golang]
-symbol = " "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
-
-[haskell]
-symbol = " "
-
-[hg_branch]
-symbol = " "
+format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#7000DD fg:black))"
 
 [java]
 symbol = " "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
-
-[julia]
-symbol = " "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+format = "[$symbol](bg:#2987C1 fg:black)"
 
 [lua]
 symbol = " "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
-
-[memory_usage]
-symbol = " "
-threshold = 0
-disabled = false
-format = "[ $ram_pct $symbol](bg:#C64422 fg:black)[](fg:#C64422)"
-
-[nim]
-symbol = " "
-
-[nix_shell]
-symbol = " "
+format = "[$symbol](bg:#2987C1 fg:black)"
 
 [nodejs]
 symbol = " "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
-
-[package]
-symbol = " "
-disabled = true
+format = "[$symbol](bg:#2987C1 fg:black)"
 
 [python]
 symbol = " "
-format = "[ $symbol$version $virtualenv ](bg:#E0FF00 fg:black)"
-
-[rlang]
-symbol = "ﳒ "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
-
-[ruby]
-symbol = " "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
-
-[rust]
-symbol = " "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
-
-[spack]
-symbol = "🅢 "
-format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
+format = "[$symbol( \\($virtualenv\\))](bg:#2987C1 fg:black)"
 
 [git_commit]
 tag_disabled = false
 commit_hash_length = 10
 disabled = false
-
-[username]
-disabled = false
-show_always = true
-style_user = "bg:#00B2FF fg:black"
-style_root = "bg:#00B2FF fg:#232323"
-format = "[ $user ]($style)"
