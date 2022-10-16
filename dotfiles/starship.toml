@@ -1,10 +1,12 @@
 format = """
 [](fg:#00B2FF)$time$username[](bg:#10B000 fg:#00B2FF)\
-$directory[](bg:#E8A903 fg:#10B000)\
-$git_branch$git_commit$git_status[](fg:#E8A903 bg:#E0FF00)\
+$directory[](bg:#C203FC fg:#10B000)\
+$git_branch$git_commit$git_status[](fg:#C203FC bg:#E0FF00)\
 $python$nodejs$java$c$elixir$elm$golang$julia$lua$rlang$ruby$rust$spack[](fg:#E0FF00)\
 $docker_context 
    $character"""
+
+# bg/fg #E8A903
 
 [aws]
 symbol = "  "
@@ -43,7 +45,7 @@ format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
 [git_branch]
 symbol = " "
 truncation_length = 30
-format = "[ $symbol$branch(:$remote_branch) ](bg:#E8A903 fg:black)"
+format = "[ $symbol$branch(:$remote_branch) ](bg:#C203FC fg:black)"
 
 [git_status]
 disabled = false
@@ -57,7 +59,7 @@ modified = ""
 staged = ""
 renamed = ""
 deleted = ""
-format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#E8A903))"
+format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#C203FC))"
 
 [golang]
 symbol = " "
