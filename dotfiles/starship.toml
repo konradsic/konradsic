@@ -2,8 +2,8 @@ format = """
 [](fg:#00B2FF)$time$username[](bg:#10B000 fg:#00B2FF)\
 $directory[](bg:#C203FC fg:#10B000)\
 $git_branch$git_commit$git_status[](fg:#C203FC bg:#E0FF00)\
-$python$nodejs$java$c$elixir$elm$golang$julia$lua$rlang$ruby$rust$spack[](fg:#E0FF00)\
-$docker_context 
+$python$nodejs$java$c$elixir$elm$golang$julia$lua$rlang$ruby$rust$spack[](fg:#E0FF00 bg:#C64422)\
+$memory_usage
    $character"""
 
 # bg/fg #E8A903
@@ -85,6 +85,9 @@ format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
 
 [memory_usage]
 symbol = " "
+threshold = 0
+disabled = false
+format = "[ $ram_pct $symbol](bg:#C64422 fg:black)[](fg:#C64422)"
 
 [nim]
 symbol = " "
