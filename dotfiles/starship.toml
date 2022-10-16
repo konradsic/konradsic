@@ -2,9 +2,7 @@ format = """
 [](fg:#00B2FF)$time$username[](bg:#10B000 fg:#00B2FF)\
 $directory[](bg:#C203FC fg:#10B000)\
 $git_branch$git_commit$git_status[](fg:#C203FC bg:#E0FF00)\
-$python$nodejs$java$c$elixir$elm$golang$julia$lua$rlang$ruby$rust$spack[](fg:#E0FF00 bg:#C64422)\
-$memory_usage
-   $character"""
+$python$nodejs$java$c$elixir$elm$golang$julia$lua$rlang$ruby$rust$spack[](fg:#E0FF00) """
 
 # bg/fg #E8A903
 
@@ -123,14 +121,6 @@ format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
 symbol = "🅢 "
 format = "[ $symbol$version ](bg:#E0FF00 fg:black)"
 
-[status]
-format = "[$common_meaning $status]($style)"
-disabled = false
-
-[character]
-success_symbol = "[└───](bold green)"
-error_symbol = "[└───](bold red)"
-
 [git_commit]
 tag_disabled = false
 commit_hash_length = 10
@@ -142,10 +132,3 @@ show_always = true
 style_user = "bg:#00B2FF fg:black"
 style_root = "bg:#00B2FF fg:#232323"
 format = "[ $user ]($style)"
-
-[time]
-disabled = false
-time_format = "%H:%M"
-utc_time_offset = "local"
-time_range = "-"
-format = "[ $time](bg:#00B2FF fg:black)"
