@@ -1,5 +1,5 @@
 format = """
-[](fg:#2987C1)[ ](bg:#2987C1)$c$java$nodejs$lua$python$directory[ ](bg:#2987C1)[](bg:#C603FC fg:#2987C1)\
+[](fg:#1BD130)[ ](bg:#1BD130)$c$java$nodejs$lua$python[ ](bg:#1BD130)[](fg:#1BD130 bg:#2987C1)$directory[ ](bg:#2987C1)[](bg:#C603FC fg:#2987C1)\
 $git_branch$git_status[](fg:#C603FC) """
 
 [c]
@@ -32,16 +32,16 @@ format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$
 
 [java]
 symbol = " "
-format = "[$symbol](bg:#2987C1 fg:black)"
+format = "[$symbol](bg:#1BD130 fg:black)"
 
 [lua]
 symbol = " "
-format = "[$symbol](bg:#2987C1 fg:black)"
+format = "[$symbol](bg:#1BD130 fg:black)"
 
 [nodejs]
 symbol = " "
-format = "[$symbol](bg:#2987C1 fg:black)"
+format = "[$symbol](bg:#1BD130 fg:black)"
 
 [python]
 symbol = " "
-format = "[$symbol( \\($virtualenv\\))](bg:#2987C1 fg:black)"
+format = "[$symbol( \\($virtualenv\\))](bg:#1BD130 fg:black)"
