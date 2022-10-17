@@ -1,6 +1,6 @@
 format = """
-[](fg:#2987C1)[ ](bg:#2987C1)$c$java$nodejs$lua$python$directory[ ](bg:#2987C1)[](bg:#7000DD fg:#2987C1)\
-$git_branch$git_commit$git_status[](fg:#7000DD) """
+[](fg:#2987C1)[ ](bg:#2987C1)$c$java$nodejs$lua$python$directory[ ](bg:#2987C1)[](bg:#C603FC fg:#2987C1)\
+$git_branch$git_status[](fg:#C603FC) """
 
 [c]
 symbol = " "
@@ -14,7 +14,7 @@ format = "[ $path$read_only](fg:black bg:#2987C1)"
 [git_branch]
 symbol = " "
 truncation_length = 30
-format = "[ $symbol$branch(:$remote_branch) ](bg:#7000DD fg:black)"
+format = "[ $symbol$branch(:$remote_branch) ](bg:#C603FC fg:black)"
 
 [git_status]
 disabled = false
@@ -28,7 +28,7 @@ modified = ""
 staged = ""
 renamed = ""
 deleted = ""
-format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#7000DD fg:black))"
+format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#C603FC fg:black))"
 
 [java]
 symbol = " "
@@ -45,8 +45,3 @@ format = "[$symbol](bg:#2987C1 fg:black)"
 [python]
 symbol = " "
 format = "[$symbol( \\($virtualenv\\))](bg:#2987C1 fg:black)"
-
-[git_commit]
-tag_disabled = false
-commit_hash_length = 10
-disabled = false
