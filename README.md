@@ -18,7 +18,7 @@ Here is a short list of projects that I've been recently working on (updated 6.1
 ~~I don't really have a big commit history in those projects because I am participating in programming contests that take so much time from my life~~
 
 ## 📨 Contact me
-* Via discord: **Konradoo#6938**
+* Via discord: [**Konradoo#6938**](https://discord.com/users/958029521565679646)
 
 ## 📈 Stats
 <img src="https://github-readme-stats.vercel.app/api?username=konradsic&show_icons=true&locale=en&theme=dark" alt="stats" height="200px"></a>
