@@ -2,7 +2,13 @@
 
 # 🖐️ Hi! Let Me introduce myself
 I'm Konrad but you could know me as **@konradsic** or **@Konradoo**. 
-I really like programming - thats what I want to do in the future. After all I also play games such as Minecraft and Cities: Skylines
+I really like programming - thats what I want to do in the future. After all I also play games such as Minecraft and Cities: Skylines<br/>
+
+**Languages I use ➜**
+<code><img height="35px" alt="python" src="https://github.com/github/explore/blob/b6b5d8bad3425c14dd20dc0d75243f009aa05487/topics/python/python.png" /></code>
+<code><img height="35px" alt="html" src="https://github.com/github/explore/blob/b6b5d8bad3425c14dd20dc0d75243f009aa05487/topics/html/html.png" /></code>
+<code><img height="35px" alt="js" src="https://github.com/github/explore/blob/b6b5d8bad3425c14dd20dc0d75243f009aa05487/topics/javascript/javascript.png" /></code>
+<code><img height="35px" alt="cpp" src="https://github.com/github/explore/blob/b6b5d8bad3425c14dd20dc0d75243f009aa05487/topics/cpp/cpp.png" /></code>
 
 ## 📦 What I am working on
 Here is a short list of projects that I've been recently working on (updated 6.10.22)
