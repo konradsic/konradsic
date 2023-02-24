@@ -14,7 +14,7 @@ I really like programming - thats what I want to do in the future. After all I a
 Here is a short list of projects that I've been recently working on (updated 11 Nov 2022)
 * [DJ Cloudy - A discord bot that will make your server better](https://github.com/konradsic/dj-cloudy)
 * I gave up on this project, but [PyEconomy - Economy system made easier](https://github.com/konradsic/py-economy)
-* I am also trying to experiment with some things and I am still leaning. I'm thinking of an app, but I don't know exactly...
+* I am also trying to experiment with some things and I am still learning. I'm thinking of an app, but I don't know exactly...
 
 ## 📨 Contact me
 * Via discord: [**Konradoo#6938**](https://discord.com/users/958029521565679646)
