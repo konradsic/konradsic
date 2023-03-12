@@ -1,6 +1,6 @@
 format = """
 [](fg:#0FD1B7)[](bg:#0FD1B7)[ ](bg:#0FD1B7 fg:#000000)[](fg:#0FD1B7 bg:#2987C1)$directory[ ](fg:#2987C1 bg:#1BD130)$c$custom$java$nodejs$lua$python[](bg:#1BD130)\
-[](bg:#7A4401 fg:#1BD130)$git_branch$git_status[](fg:#7A4401) """
+[](bg:#BE8846 fg:#1BD130)$git_branch$git_status[](fg:#BE8846) """
 
 [directory]
 truncation_length = 2
@@ -17,7 +17,7 @@ format = "[ $path$read_only ](fg:black bg:#2987C1)"
 [git_branch]
 symbol = " "
 truncation_length = 20
-format = "[ $symbol$branch(:$remote_branch) ](bg:#7A4401 fg:black)"
+format = "[ $symbol$branch(:$remote_branch) ](bg:#BE8846 fg:black)"
 
 [git_status]
 disabled = false
@@ -31,7 +31,7 @@ modified = ""
 staged = ""
 renamed = ""
 deleted = ""
-format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#7A4401 fg:black))"
+format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#BE8846 fg:black))"
 
 [java]
 symbol = " "
