@@ -20,8 +20,8 @@ Here is a short list of projects that I've been recently working on (updated 3rd
 * Via discord: [**Konradoo#6938**](https://discord.com/users/958029521565679646)
 
 ## 📈 Stats
-![overview](https://raw.githubusercontent.com/konradsic/stats/master/generated/overview.svg)
-![languages](https://raw.githubusercontent.com/konradsic/stats/master/generated/languages.svg)
+![overview](https://raw.githubusercontent.com/konradsic/stats/master/generated/overview.svg#gh-dark-mode-only)
+![languages](https://raw.githubusercontent.com/konradsic/stats/master/generated/languages.svg#gh-dark-mode-only)
 
 ## Watch how a snake eats my contributions
 ![snake gif](https://github.com/konradsic/konradsic/blob/output/github-contribution-grid-snake.svg)
