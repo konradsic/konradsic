@@ -1,12 +1,27 @@
 format = """
-[](fg:#0FD1B7)[](bg:#0FD1B7)[ ](bg:#0FD1B7 fg:#000000)[](fg:#0FD1B7 bg:#2987C1)$directory[ ](fg:#2987C1 bg:#1BD130)$c$custom$java$nodejs$lua$python[](bg:#1BD130)\
-[](bg:#BE8846 fg:#1BD130)$git_branch$git_status[](fg:#BE8846) """
+[█](#4c5161)\
+[█](#6f778f)\
+[█](#868fad)\
+[  ](bg:#a3aed2 fg:#2B2E2E)\
+[](bg:#7286D3 fg:#a3aed2)\
+$directory\
+[](fg:#7286D3 bg:#8CABED)[ ](bg:#8CABED)\
+$java\
+$c\
+$lua\
+$nodejs\
+$python\
+$custom\
+[](fg:#8CABED bg:#ACBDFC)\
+$git_branch\
+$git_status\
+[](fg:#ACBDFC bg:transparent) """
 
 [directory]
 truncation_length = 2
 read_only = " "
 truncation_symbol = "⋯ /"
-format = "[ $path$read_only ](fg:black bg:#2987C1)"
+format = "[ $path$read_only ](fg:#2B2E2E bg:#7286D3)"
 
 [directory.substitutions]
 "Documents" = " "
@@ -17,7 +32,7 @@ format = "[ $path$read_only ](fg:black bg:#2987C1)"
 [git_branch]
 symbol = " "
 truncation_length = 20
-format = "[ $symbol$branch(:$remote_branch) ](bg:#BE8846 fg:black)"
+format = "[ $symbol$branch(:$remote_branch) ](bg:#ACBDFC fg:#2B2E2E)"
 
 [git_status]
 disabled = false
@@ -31,29 +46,35 @@ modified = ""
 staged = ""
 renamed = ""
 deleted = ""
-format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#BE8846 fg:black))"
+format = "([$untracked$ahead$behind$diverged$conflicted$stashed$modified$staged$renamed$deleted ](bg:#ACBDFC fg:#2B2E2E))"
 
 [java]
 symbol = " "
-format = "[$symbol](bg:#1BD130 fg:black)"
+format = "[$symbol](bg:#8CABED fg:#2B2E2E)"
 
 [c]
 symbol = " "
-format = "[$symbol](bg:#E0FF00 fg:black)"
+format = "[$symbol](bg:#8CABED fg:#2B2E2E)"
 
 [lua]
 symbol = " "
-format = "[$symbol](bg:#1BD130 fg:black)"
+format = "[$symbol](bg:#8CABED fg:#2B2E2E)"
 
 [nodejs]
-symbol = " "
-format = "[$symbol](bg:#1BD130 fg:black)"
+symbol = " "
+# 
+format = "[$symbol](bg:#8CABED fg:#2B2E2E)"
 
 [python]
 symbol = " "
-format = "[$symbol( \\($virtualenv\\))](bg:#1BD130 fg:black)"
+format = "[$symbol(\\($virtualenv\\))](bg:#8CABED fg:#2B2E2E)"
 
 [custom.cpp]
 detect_extensions = ["cpp"]
 symbol = " "
-format = "[$symbol](bg:#1BD130 fg:black)"
+format = "[$symbol](bg:#8CABED fg:#2B2E2E)"
+
+[custom.html]
+detect_extensions = ["html"]
+symbol = " "
+format = "[$symbol](bg:#8CABED fg:#2B2E2E)"
