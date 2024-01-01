@@ -2,7 +2,7 @@
 
 # 🖐️ Hi! Let Me introduce myself
 I'm Konrad but you could know me as **@konradsic** or **@Konradoo**. 
-I really like programming - thats what I want to do in the future. After all I also play games such as Minecraft and Cities: Skylines<br/>
+I really like programming - thats what I want to do in the future. After all I also play games such as Sid Meier's Civilization VI and Cities: Skylines<br/>
 
 **Languages I use ➜**
 <code><img height="35px" alt="python" src="https://github.com/github/explore/blob/b6b5d8bad3425c14dd20dc0d75243f009aa05487/topics/python/python.png" /></code>
@@ -11,8 +11,7 @@ I really like programming - thats what I want to do in the future. After all I a
 <code><img height="35px" alt="cpp" src="https://github.com/github/explore/blob/b6b5d8bad3425c14dd20dc0d75243f009aa05487/topics/cpp/cpp.png" /></code>
 
 ## 📦 What I am working on
-Here is a short list of projects that I've been recently working on (updated 3rd May 2023)
-* [DJ Cloudy - A rich feature discord music bot](https://github.com/konradsic/dj-cloudy)
+Here is a short list of projects that I've been recently working on
 * [Weatherly - getting weather data made simple](https://github.com/konradsic/weatherly)
 * I am also trying to experiment with some things and I am still learning.
 
