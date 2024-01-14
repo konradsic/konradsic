@@ -1,8 +1,8 @@
 <img src="standard.gif" alt="welcome-banner" width="340px" height="120px"/>
 
 # 🖐️ Hi! Let Me introduce myself
-I'm Konrad but you could know me as **@konradsic** or **@Konradoo**. 
-I really like programming - thats what I want to do in the future. After all I also play games such as Sid Meier's Civilization VI and Cities: Skylines<br/>
+I'm Konrad but you could know me as **@konradsic**.
+I really like programming (of course lol). After all I also play games such as Sid Meier's Civilization VI and Cities: Skylines<br/>
 
 **Languages I use ➜**
 <code><img height="35px" alt="python" src="https://github.com/github/explore/blob/b6b5d8bad3425c14dd20dc0d75243f009aa05487/topics/python/python.png" /></code>
@@ -12,15 +12,14 @@ I really like programming - thats what I want to do in the future. After all I a
 
 ## 📦 What I am working on
 Here is a short list of projects that I've been recently working on
+* Trying to get better GitHub overall ranking (look below for stats)
 * [Weatherly - getting weather data made simple](https://github.com/konradsic/weatherly)
-* I am also trying to experiment with some things and I am still learning.
+* I'm still learning and trying new things
 
 ## 📨 Contact me
-* Via discord: [**Konradoo#6938**](https://discord.com/users/958029521565679646)
+* Via discord: [**@konradsic**](https://discord.com/users/958029521565679646)
 
 ## 📈 Stats
-![overview](https://raw.githubusercontent.com/konradsic/stats/master/generated/overview.svg#gh-dark-mode-only)
-![languages](https://raw.githubusercontent.com/konradsic/stats/master/generated/languages.svg#gh-dark-mode-only)
-
-## Watch how a snake eats my contributions
-![snake gif](https://github.com/konradsic/konradsic/blob/output/github-contribution-grid-snake.svg)
+[![konradsic's GitHub stats](https://github-readme-stats.vercel.app/api?username=konradsic&show_icons=true&theme=tokyonight&rank_icon=percentile&height=300)](https://github.com/anuraghazra/github-readme-stats)
+[![konradsic's top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=konradsic&show_icons=true&theme=tokyonight&langs_count=5&height=300&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
+[![konradsic's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=konradsic&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
