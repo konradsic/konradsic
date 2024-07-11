@@ -1,6 +1,6 @@
-<img src="standard.gif" alt="welcome-banner" width="340px" height="120px"/>
+<!--- <img src="standard.gif" alt="welcome-banner" width="340px" height="120px"/> --->
 
-# 🖐️ Hi! Let Me introduce myself
+# Hello world!
 I'm Konrad but you could know me as **@konradsic**.
 I really like programming (of course lol). After all I also play games such as Sid Meier's Civilization VI and Cities: Skylines<br/>
 
