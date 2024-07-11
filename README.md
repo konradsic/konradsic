@@ -2,7 +2,7 @@
 
 # Hello world!
 I'm Konrad but you could know me as **@konradsic**.
-I really like programming (of course lol). After all I also play games such as Sid Meier's Civilization VI and Cities: Skylines<br/>
+I really like programming. I have experience in Python, JavaScript and HTML. I also enjoy playing computer games<br/>
 
 **Languages I use ➜**
 <code><img height="35px" alt="python" src="https://github.com/github/explore/blob/b6b5d8bad3425c14dd20dc0d75243f009aa05487/topics/python/python.png" /></code>
@@ -12,12 +12,12 @@ I really like programming (of course lol). After all I also play games such as S
 
 ## 📦 What I am working on
 Here is a short list of projects that I've been recently working on
-* Trying to get better GitHub overall ranking (look below for stats)
-* [Weatherly - getting weather data made simple](https://github.com/konradsic/weatherly)
-* I'm still learning and trying new things
+* Learning React and TypeScript by building a quiz application
+* A python weather package - [Weatherly](https://github.com/konradsic/weatherly)
+* Discord bots
 
 ## 📨 Contact me
-* Via discord: [**@konradsic**](https://discord.com/users/958029521565679646)
+* Discord: [**@konradsic**](https://discord.com/users/958029521565679646)
 
 ## 📈 Stats
 [![konradsic's GitHub stats](https://github-readme-stats.vercel.app/api?username=konradsic&show_icons=true&theme=tokyonight&rank_icon=percentile)](https://github.com/anuraghazra/github-readme-stats)
