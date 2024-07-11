@@ -24,4 +24,4 @@ Here is a short list of projects that I've been recently working on
 <br/>
 [![konradsic's top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=konradsic&show_icons=true&theme=tokyonight&langs_count=5)](https://github.com/anuraghazra/github-readme-stats)
 <br/>
-[![konradsic's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=konradsic&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![konradsic's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=konradsic&theme=tokyonight&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
