@@ -44,8 +44,8 @@ Here is a short list of projects that I've been recently working on
 * Discord bots
 
 ## 📈 Stats
-[![konradsic's GitHub stats](https://github-readme-stats.vercel.app/api?username=konradsic&show_icons=true&theme=tokyonight&rank_icon=percentile)](https://github.com/anuraghazra/github-readme-stats)
+[<img alt="konradsic's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=konradsic&show_icons=true&theme=tokyonight&rank_icon=percentile" width="450px"/>](https://github.com/anuraghazra/github-readme-stats)
 <br/>
-[![konradsic's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=konradsic&theme=tokyonight&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[<img alt="konradsic's WakaTime stats:" src="https://github-readme-stats.vercel.app/api/wakatime?username=konradsic&theme=tokyonight&layout=compact" width="450px" />](https://github.com/anuraghazra/github-readme-stats)
 
 **btw I use arch**
