@@ -32,7 +32,7 @@ I'm Konrad and I really like programming. I have experience in many programming 
 
 **Other ➜** <br />
 ![C++](https://custom-icon-badges.herokuapp.com/badge/C++-00599C.svg?style=for-the-badge&logo=cpp2&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Tensorflow](https://img.shields.io/badge/Tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-222222?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
