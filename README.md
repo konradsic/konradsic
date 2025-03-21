@@ -1,7 +1,7 @@
 <!--- <img src="standard.gif" alt="welcome-banner" width="340px" height="120px"/> --->
 
 # Hello world!
-I'm Konrad and I really like programming. I have experience in many programming languages.<br/>
+I'm a high school student passionate about building cool stuff with Javascript, Python, and more. I explore AI, automation, competetive programming, and full-stack development.<br/>
 
 ## My tech stack
 
