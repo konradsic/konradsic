@@ -5,14 +5,13 @@ I'm a high school student passionate about building cool stuff with Javascript, 
 
 ## My tech stack
 
-**Web development ➜** <br />
-![Javascript](https://img.shields.io/badge/JavaScript-E3B10B.svg?style=for-the-badge&logo=javascript&logoColor=white)
+**Web development (current stack) ➜** <br />
 ![Typescript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)
-![React](https://img.shields.io/badge/-ReactJS-%2361DAFB?style=for-the-badge&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/-ReactJS-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
+![ShadCN](https://img.shields.io/badge/ShadCN-111111?style=for-the-badge&logo=shadcnui&logoColor=white)
+![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)
 <br />
 
 **Databases ➜** <br />
@@ -48,4 +47,3 @@ Here is a short list of projects that I've been recently working on
 <br/>
 [<img alt="konradsic's WakaTime stats:" src="https://github-readme-stats.vercel.app/api/wakatime?username=konradsic&theme=tokyonight&layout=compact" width="450px" />](https://github.com/anuraghazra/github-readme-stats)
 
-**btw I use arch**
