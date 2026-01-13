@@ -38,9 +38,8 @@ I'm a high school student passionate about building cool stuff with Javascript, 
 
 ## 📦 What I am working on
 Here is a short list of projects that I've been recently working on
-* Learning React and TypeScript by building a quiz application
-* A python weather package - [Weatherly](https://github.com/konradsic/weatherly)
-* Discord bots
+* [kolabo](https://github.com/konradsic/kolabo) - a document editor built from scratch with custom CRDTs
+* Stowarzyszenie Talent's (a non-profit org focused on teaching algorithms and data structures to elementary and high-school students) [webpage](https://talent.edu.pl/)
 
 ## 📈 Stats
 [<img alt="konradsic's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=konradsic&show_icons=true&theme=tokyonight&rank_icon=percentile" width="450px"/>](https://github.com/anuraghazra/github-readme-stats)
