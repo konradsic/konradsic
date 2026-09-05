@@ -23,6 +23,8 @@ I'm a high school student passionate about building cool stuff with Javascript, 
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://custom-icon-badges.herokuapp.com/badge/Java-007396.svg?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
 **Hosting services ➜** <br />
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
@@ -37,12 +39,14 @@ I'm a high school student passionate about building cool stuff with Javascript, 
 
 
 ## 📦 What I am working on
-Here is a short list of projects that I've been recently working on
-* [kolabo](https://github.com/konradsic/kolabo) - a document editor built from scratch with custom CRDTs
-* Stowarzyszenie Talent's (a non-profit org focused on teaching algorithms and data structures to elementary and high-school students) [webpage](https://talent.edu.pl/)
+Here is a short list of projects that I've been recently working on / finished
+* [Angaros](https://github.com/konradsic/angaros) - a flexible Java durable outbox framework, built from scratch
+* [kolabo](https://github.com/konradsic/kolabo) - *finished, incomplete*
+* Stowarzyszenie Talent's (a non-profit org focused on teaching algorithms and data structures to elementary and high-school students) [webpage](https://talent.edu.pl/) - *finished*
 
+<!--
 ## 📈 Stats
 [<img alt="konradsic's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=konradsic&show_icons=true&theme=tokyonight&rank_icon=percentile" width="450px"/>](https://github.com/anuraghazra/github-readme-stats)
 <br/>
 [<img alt="konradsic's WakaTime stats:" src="https://github-readme-stats.vercel.app/api/wakatime?username=konradsic&theme=tokyonight&layout=compact" width="450px" />](https://github.com/anuraghazra/github-readme-stats)
-
+--!>
